@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Typesauce';
+    src: url('../fonts/Typesauce.ttf');
+}
+
+$typesuse: 'Typesauce';
+$green: #3a49ce;
+
+.app-title {
+    text-align: center;
+    color: $green;
+    font-family: $typesuse;
+}
+
+.app-img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
